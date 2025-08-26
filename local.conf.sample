@@ -1,0 +1,4 @@
+# Put host-specific overrides here, e.g. different shell, colors, etc.
+# Example:
+# set -g default-terminal "tmux-256color"
+
