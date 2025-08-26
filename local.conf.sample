@@ -2,3 +2,8 @@
 # Example:
 # set -g default-terminal "tmux-256color"
 
+# Custom key bindings
+bind r source-file ~/.tmux.conf \; display-message "Config reloaded!"
+
+# Different status line colors
+set -g status-bg blue
